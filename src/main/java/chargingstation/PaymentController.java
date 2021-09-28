@@ -24,10 +24,6 @@ public class PaymentController {
 
         payment.setOrderStatus("ORDER_PLACED");
         paymentRepository.save(payment);
-
-
-
-        return true;
         
         // CB test 용 지연 코드.
         try {
@@ -35,6 +31,6 @@ public class PaymentController {
         } catch (InterruptedException e) {
         e.printStackTrace();
         }
-        
+        return true;
     }
 }
