@@ -14,6 +14,5 @@ src/main/java/chargingstation/._PayFinished.java
 src/main/java/chargingstation/._PaymentApplication.java
 src/main/java/chargingstation/._PaymentController.java
 src/main/java/chargingstation/._PaymentRepository.java
-src/main/java/chargingstation/AbstractEvent.java
 src/main/java/chargingstation/config/._kafka
 src/main/java/chargingstation/config/kafka/._KafkaProcessor.java
