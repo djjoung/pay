@@ -29,7 +29,7 @@ public class AbstractEvent {
     public AbstractEvent(){
         this.setEventType(this.getClass().getSimpleName());
         SimpleDateFormat defaultSimpleDateFormat = new SimpleDateFormat("YYYYMMddHHmmss");
-        this.timestamp = defaultSimpleDateFormat.format(new Date());
+        this.timestamp = defaultSimpleDateFormat.format(new Date()); 
     }
 
     public String toJson(){
